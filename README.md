@@ -1,2 +1,2 @@
-# nawirny-website
-The NAWIRNY organization website source
+# Enlight-me website
+The Enlight-me organization website source
