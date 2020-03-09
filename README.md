@@ -1,2 +1,2 @@
-# Enlight-me website
-The Enlight-me organization website source
+# Enlight.me wensite
+This is the source code for the Enlight.me organization website.
