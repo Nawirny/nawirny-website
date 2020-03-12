@@ -9,7 +9,7 @@ const NavBar = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="h6" component="h2" color="inherit">
-                        Enlight.me - Location Enabled Insights
+                        Enlight.me - Location Empowered Insights
                     </Typography>
                 </Toolbar>
 
