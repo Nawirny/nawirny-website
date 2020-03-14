@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
+
 import ServicesCard from './ServiceCard';
 
 const ServicesList = () => {
@@ -9,12 +9,7 @@ const ServicesList = () => {
                         ];
     return (
         <div>
-            <TextField style={{ padding: 24 }}
-                id="searchInput"
-                placeholder="Search"
-                margin="normal"
-            />
-
+            
             <Grid container spacing={1} style={{ padding: 24 }}>
                 {proServices.map(service => (
                     <Grid item xs={12} sm={6} lg={4} xl={3} key={service.title}>

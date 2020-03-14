@@ -1,15 +1,29 @@
 import React from 'react';
-import NavBar from './components/NavBar';
-import ServicesList from './components/ServicesList';
+
+import { TranslatorProvider } from "react-translate";
+
+import translations from "./translations";
+
+import Home from './pages/Home.js';
 import './App.css';
 
 function App() {
+
+  const [languageMode, setLanguageMode] = React.useState(true);
+
+  const handleLanguageToggle = () => {
+    setLanguageMode(!languageMode);
+  };
+
   return (
     <div className="App">
-      
-      <NavBar/>
-      <ServicesList/>
 
+      <TranslatorProvider translations={translations}>
+
+        <Home languageMode={languageMode}
+          handleLanguageToggle={handleLanguageToggle} />
+      </TranslatorProvider>
+      
     </div>
   );
 }
