@@ -27,7 +27,7 @@ const Home = ({ languageMode, handleLanguageToggle }) => {
   const classes = useStyles();
 
   const proServices = [
-  { title: 'Open Platforms', description: t('openLIplatforms'),  image: openPlatformsImage, link:'/'},
+  { title: 'Open Platforms', description: t('openLIplatforms'),  image: openPlatformsImage, link:'/platforms'},
   { title: 'Open Datasets',  description: t('freeGeoDatasets'),  image: openGeoDataImage  , link:'/'},
   { title: 'Open Use Cases', description: t('businessUseCases'), image: openUseCasesImage , link:'/'}];
 

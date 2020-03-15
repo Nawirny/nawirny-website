@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import DevicesOtherIcon from '@material-ui/icons/DevicesOther';
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Button from "@material-ui/core/Button";
 
@@ -103,6 +104,13 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                 </Link>
             </MenuItem>
             <MenuItem>
+                <Link to='/platforms'>                  
+                    <IconButton aria-label="Platforms" color="inherit">
+                        <DevicesOtherIcon />
+                    </IconButton>
+                    Platforms
+                </Link>
+            </MenuItem>            <MenuItem>
                 <Link to='/about'>
                     <IconButton aria-label="About" color="inherit">
                         <InfoIcon />
@@ -126,7 +134,7 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                 }}>
                 <Toolbar>
                     <Link to='/'>
-                        <img src={Logo} style={{ maxHeight: '80%', height: '50px' }} />
+                        <img src={Logo} style={{ maxHeight: '80%', height: '50px' }} alt='' />
                     </Link>
 
                     <div className={classes.grow} />
@@ -134,6 +142,7 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                     <div className={classes.sectionDesktop}>
                         <LanguageSwitch/>
                         <Link to='/'><Button color="inherit">Home</Button></Link>
+                        <Link to='/platforms' color="inherit" ><Button color="inherit">Platforms</Button></Link>
                         <Link to='/about'><Button color="inherit">About</Button></Link>
                     </div>
 

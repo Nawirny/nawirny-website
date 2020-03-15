@@ -9,13 +9,14 @@ export default {
       openvalues:"Building community driven Open Platforms, Geospatial datasets and their Use cases",
       ecosystem: "Ecosystem",
       ecosystemdescription:"Our mission is to develop community driven  platforms to democratize access to open geospatial datasets and build useful use cases for Business",
-      openLIplatforms: 'Open Location Intelligence Platfroms',
+      openLIplatforms: 'Location Intelligence Open Platforms',
       freeGeoDatasets: 'Freely Available Geospatially Enabled Datasets',
       businessUseCases: 'Business Oriented Location Enabled Uses Cases',
       partners: 'Partners',
       enlightmeAbout: 'We are a startup working toward the large adoption of location intelligence technologies by small businesses.',
       enlightmeValues: 'Our values : Openness, Use case driven, Community empowerement',
       contactus: 'Contact us',
+      platforms : 'Platforms',
     
     },
     arabic: {
@@ -27,13 +28,15 @@ export default {
       openvalues:"لننشئ معاً منصاتنا الرقمية المفتوحة و قواعد بياناتنا و سيناريوهات إستعمالها",
       ecosystem: "منظومة متكاملة",
       ecosystemdescription:" هدفنا التطوير الجماعي لمنصات رقمية لتعميم إستعمال البيانات الجغرافية المفتوحة و تحضير سيناريوهات للإستفادة منها في إدارة اﻷعمال",
-      openLIplatforms: 'منصات ذكاء جغرافي مفتوحة',
+      openLIplatforms: 'منصات مفتوحة للذكاء الجغرافي',
       freeGeoDatasets: 'قواعد بيانات مفتوحة و ذات بعد جغرافي',
       businessUseCases: 'تطبيقات مستندة على المواقع موجهة ﻹدارة اﻷعمال',
       partners: 'شركائنا',
       enlightmeAbout: 'نحن مؤسسة ناشئة تعمل على تدليل المصاعب امام المؤسسات الصغيرة و المتوسطة ﻹدماج الذكاء الجغرافي في مساراتها المهنية',
       enlightmeValues: 'قيمنا : اﻹنفتاح، العمل على تطبيقات مفيدة، التكافل إجتماعي',
       contactus: 'إتصل بنا',
+      platforms : 'المنصات الرقمية',
+
     }
   };
   

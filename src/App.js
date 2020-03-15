@@ -10,6 +10,7 @@ import {
 import translations from "./translations";
 import Home from './pages/Home.js';
 import About from './pages/About.js';
+import Platforms from './pages/Platforms.js';
 import './App.css';
 
 function App() {
@@ -27,6 +28,10 @@ function App() {
         <Router>
           <div>
             <Switch>
+              <Route path="/platforms">
+                <Platforms languageMode={languageMode}
+                  handleLanguageToggle={handleLanguageToggle} />
+              </Route>
               <Route path="/about">
                 <About languageMode={languageMode}
                   handleLanguageToggle={handleLanguageToggle} />
