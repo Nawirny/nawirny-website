@@ -16,24 +16,24 @@ const Footer = () => {
         <footer className='footer'>
             <Grid container spacing={3} >
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
+                <Link to='/'>
                     <img src={Logo} style={{ maxHeight: '100%', height: '100px' }} alt=""/>
+                </Link>
                 </Grid>
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
                     <Link to='/'  color="inherit" >About</Link>
                     <br/>
                     <br/>
-                    <Link to='/'>Contact us</Link>
-                    <br/>
-                    <br/>
                     <Link to='/'>Team & Community</Link>
+                    <br/>
+                    <p>© 2020, Built with ❤ by Team Enlight.me</p>
                 </Grid>
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
                     <a href='https://www.github.com/enlight-me'>
                     <IconButton aria-label="Facebook" color="inherit">
                             <GitHubIcon color="action"/>
                         </IconButton>
-                    </a>
-                    <br/>                    
+                    </a>                    
                     <br/>                    
                     <Link to='/'>
                         <IconButton aria-label="Facebook" color="inherit">
@@ -55,9 +55,6 @@ const Footer = () => {
                             <TwitterIcon color="action"/>
                         </IconButton>
                     </Link>
-                </Grid>
-                <Grid item xs={12} md={12} style={{ textAlign: 'center', padding: '0.5rem' , paddingTop: '0.1rem'}}>
-                    <p>© 2020, Built with ❤ by Team Enlight.me</p>
                 </Grid>
             </Grid>
         </footer>

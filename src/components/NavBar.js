@@ -9,7 +9,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
-import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Button from "@material-ui/core/Button";
@@ -107,13 +106,6 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                 </IconButton>
                 <p>About</p>
             </MenuItem>
-            <MenuItem>
-                <IconButton aria-label="Contact" color="inherit">
-                    <PermContactCalendarIcon />
-                </IconButton>
-                <p>Contact</p>
-            </MenuItem>         
-            
         </Menu>
     );
 
@@ -139,7 +131,6 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                         <LanguageSwitch/>
                         <Button color="inherit">Home</Button>
                         <Button color="inherit">About</Button>
-                        <Button color="inherit">Contact</Button>
                     </div>
 
                     <div className={classes.sectionMobile}>

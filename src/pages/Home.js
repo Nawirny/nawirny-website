@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from 'react-router-dom';
 import Typography from '@material-ui/core/Typography';
 import Grid from "@material-ui/core/Grid";
 import Button from '@material-ui/core/Button';
@@ -10,6 +11,9 @@ import ServiceCard from '../components/ServiceCard.js';
 import Footer from '../components/Footer.js';
 
 import ImageProcess from '../img/enlightme-process.png';
+import openPlatformsImage from '../img/li-platforms.png';
+import openGeoDataImage from '../img/geodatasets.jpg';
+import openUseCasesImage from '../img/geo-use-cases.jpg';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -24,13 +28,13 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const Home = ({ languageMode, handleLanguageToggle }) => {
-
-  const proServices = [{ title: 'Blockchain', description: 'Blockchain Based Solutions', image: "/static/images/blockchain-logo.jpg" },
-  { title: 'GIS', description: 'Geographical Informations Systems (GIS)', image: "/static/images/gis.png" },
-  { title: 'SDS', description: 'Spatial Data Science', image: "/static/images/gis.png" }];
-
   let t = useTranslate(languageMode ? "english" : "arabic");
   const classes = useStyles();
+
+  const proServices = [
+  { title: 'Open Platforms', description: t('openLIplatforms'),  image: openPlatformsImage, link:'/'},
+  { title: 'Open Datasets',  description: t('freeGeoDatasets'),  image: openGeoDataImage  , link:'/'},
+  { title: 'Open Use Cases', description: t('businessUseCases'), image: openUseCasesImage , link:'/'}];
 
   return (
     <Fragment>
@@ -43,8 +47,10 @@ const Home = ({ languageMode, handleLanguageToggle }) => {
           <Grid container spacing={3}>
             <Grid item xs={12} md={6}>
               <div className="opening-blurb">
-                <Typography variant="h3">{t("What")} </Typography>
-                <Button color="inherit" variant="contained">{t("learnmore")}</Button>
+                <Typography variant="h3">{t("What")} </Typography>                
+                <Link to='/'>
+                  <Button color="inherit" variant="contained">{t("learnmore")}</Button>
+                </Link>
                 <hr />
                 <Typography variant="h5">{t("Subtext")}</Typography>
                 <br/>
@@ -81,7 +87,6 @@ const Home = ({ languageMode, handleLanguageToggle }) => {
               <Grid item xs={12}  md={6}>
                 <img src={ImageProcess} style={{ maxHeight: '40vh', width: '100%' }} alt="" /> 
               </Grid>
-
           </Grid>
         </Grid>
       </div>
@@ -111,14 +116,13 @@ const Home = ({ languageMode, handleLanguageToggle }) => {
           </Grid>
 
           {proServices.map(service => (
-            <ServiceCard service={service} key={service.title} />
+            <ServiceCard service={service} key={service.title} languageMode={languageMode}/>
           ))}
 
         </Grid>
       </div>
 
       <Footer />
-
 
     </Fragment>
   );
