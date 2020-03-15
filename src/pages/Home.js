@@ -19,11 +19,6 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     alignItems: "center"
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    color: theme.palette.text.secondary
   }
 }));
 
@@ -48,7 +43,7 @@ const Home = ({ languageMode, handleLanguageToggle }) => {
             <Grid item xs={12} md={6}>
               <div className="opening-blurb">
                 <Typography variant="h3">{t("What")} </Typography>                
-                <Link to='/'>
+                <Link to='/about'>
                   <Button color="inherit" variant="contained">{t("learnmore")}</Button>
                 </Link>
                 <hr />

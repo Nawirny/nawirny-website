@@ -9,6 +9,7 @@ import {
 
 import translations from "./translations";
 import Home from './pages/Home.js';
+import About from './pages/About.js';
 import './App.css';
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
         <Router>
           <div>
             <Switch>
+              <Route path="/about">
+                <About languageMode={languageMode}
+                  handleLanguageToggle={handleLanguageToggle} />
+              </Route>
               <Route path="/">
                 <Home languageMode={languageMode}
                   handleLanguageToggle={handleLanguageToggle} />

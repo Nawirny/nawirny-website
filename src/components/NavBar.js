@@ -95,16 +95,20 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                 <LanguageSwitch/>
             </MenuItem>
             <MenuItem>
-                <IconButton aria-label="Home" color="inherit">                    
+                <Link to='/'>
+                    <IconButton aria-label="Home" color="inherit">
                         <HomeIcon />
-                </IconButton>
-                <p>Home</p>
+                    </IconButton>
+                    Home
+                </Link>
             </MenuItem>
             <MenuItem>
-                <IconButton aria-label="About" color="inherit">
-                    <InfoIcon />
-                </IconButton>
-                <p>About</p>
+                <Link to='/about'>
+                    <IconButton aria-label="About" color="inherit">
+                        <InfoIcon />
+                    </IconButton>
+                    About
+                </Link>
             </MenuItem>
         </Menu>
     );
@@ -129,8 +133,8 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
 
                     <div className={classes.sectionDesktop}>
                         <LanguageSwitch/>
-                        <Button color="inherit">Home</Button>
-                        <Button color="inherit">About</Button>
+                        <Link to='/'><Button color="inherit">Home</Button></Link>
+                        <Link to='/about'><Button color="inherit">About</Button></Link>
                     </div>
 
                     <div className={classes.sectionMobile}>

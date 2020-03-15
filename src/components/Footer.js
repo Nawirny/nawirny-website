@@ -21,7 +21,7 @@ const Footer = () => {
                 </Link>
                 </Grid>
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
-                    <Link to='/'  color="inherit" >About</Link>
+                    <Link to='/about'  color="inherit" >About</Link>
                     <br/>
                     <br/>
                     <Link to='/'>Team & Community</Link>
