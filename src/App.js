@@ -1,9 +1,13 @@
 import React from 'react';
 
 import { TranslatorProvider } from "react-translate";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 import translations from "./translations";
-
 import Home from './pages/Home.js';
 import './App.css';
 
@@ -19,11 +23,19 @@ function App() {
     <div className="App">
 
       <TranslatorProvider translations={translations}>
+        <Router>
+          <div>
+            <Switch>
+              <Route path="/">
+                <Home languageMode={languageMode}
+                  handleLanguageToggle={handleLanguageToggle} />
+              </Route>
+            </Switch>
+          </div>
+        </Router>
 
-        <Home languageMode={languageMode}
-          handleLanguageToggle={handleLanguageToggle} />
       </TranslatorProvider>
-      
+
     </div>
   );
 }

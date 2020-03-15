@@ -1,6 +1,6 @@
 
 .landingContainer {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   background-image: url("./img/background-direct.png");
   background-size: contain, cover;
@@ -12,6 +12,18 @@
 .howitworks {
   z-index: 2;
   width: 100%;
+  /* background-image: url("./img/background-layer-reverse.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  transform: translate(0, 10px);
+}
+
+
+.description {
+  z-index: 2;
+  width: 100%;
+  /* height: 100vh; */
   /* background-image: url("./img/background-layer-reverse.png"); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,4 +55,10 @@
   width: 32%;
   height: 32%;
   margin: 0.5%;
+}
+
+footer {
+  background-color: #c87137;
+  transform: translate(0, 20px);
+  color: white;
 }
