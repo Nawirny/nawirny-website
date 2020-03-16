@@ -26,6 +26,8 @@ const Footer = () => {
                     <br/>
                     <Link to='/platforms'  color="inherit" >Platforms</Link>
                     <br/>
+                    <Link to='/geodatasets'  color="inherit" >DataSets</Link>
+                    <br/>
                     <Link to='/usecases'  color="inherit" >Use Cases</Link>
                     <br/>
                     <Link to='/'>Team & Community</Link>

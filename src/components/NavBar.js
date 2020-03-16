@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import StorageIcon from '@material-ui/icons/Storage';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import DevicesOtherIcon from '@material-ui/icons/DevicesOther';
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -113,6 +114,14 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                 </Link>
             </MenuItem>              
             <MenuItem>
+                <Link to='/geogatasets'>                  
+                    <IconButton aria-label="Datasets" color="inherit">
+                        <StorageIcon />
+                    </IconButton>
+                    Datasets
+                </Link>
+            </MenuItem>              
+            <MenuItem>
                 <Link to='/usecases'>                  
                     <IconButton aria-label="Use Cases" color="inherit">
                         <BusinessCenterIcon />
@@ -153,6 +162,7 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                         <LanguageSwitch/>
                         <Link to='/'><Button color="inherit">Home</Button></Link>
                         <Link to='/platforms' color="inherit" ><Button color="inherit">Platforms</Button></Link>
+                        <Link to='/geodatasets' color="inherit" ><Button color="inherit">DataSets</Button></Link>
                         <Link to='/usecases' color="inherit" ><Button color="inherit">Use Cases</Button></Link>
                         <Link to='/about'><Button color="inherit">About</Button></Link>
                     </div>

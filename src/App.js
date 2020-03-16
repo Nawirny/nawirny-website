@@ -12,6 +12,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Platforms from './pages/Platforms.js';
 import UseCases from './pages/UseCases';
+import GeoDataSets from './pages/GeoDataSets';
 import './App.css';
 
 function App() {
@@ -33,10 +34,14 @@ function App() {
                 <Platforms languageMode={languageMode}
                   handleLanguageToggle={handleLanguageToggle} />
               </Route>              
+              <Route path="/geodatasets">
+                <GeoDataSets languageMode={languageMode}
+                  handleLanguageToggle={handleLanguageToggle} />
+              </Route>  
               <Route path="/usecases">
                 <UseCases languageMode={languageMode}
                   handleLanguageToggle={handleLanguageToggle} />
-              </Route>
+              </Route>              
               <Route path="/about">
                 <About languageMode={languageMode}
                   handleLanguageToggle={handleLanguageToggle} />
