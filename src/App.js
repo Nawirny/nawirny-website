@@ -11,6 +11,7 @@ import translations from "./translations";
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Platforms from './pages/Platforms.js';
+import UseCases from './pages/UseCases';
 import './App.css';
 
 function App() {
@@ -28,8 +29,12 @@ function App() {
         <Router>
           <div>
             <Switch>
-              <Route path="/platforms">
+            <Route path="/platforms">
                 <Platforms languageMode={languageMode}
+                  handleLanguageToggle={handleLanguageToggle} />
+              </Route>              
+              <Route path="/usecases">
+                <UseCases languageMode={languageMode}
                   handleLanguageToggle={handleLanguageToggle} />
               </Route>
               <Route path="/about">

@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import DevicesOtherIcon from '@material-ui/icons/DevicesOther';
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Button from "@material-ui/core/Button";
@@ -110,7 +111,16 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                     </IconButton>
                     Platforms
                 </Link>
-            </MenuItem>            <MenuItem>
+            </MenuItem>              
+            <MenuItem>
+                <Link to='/usecases'>                  
+                    <IconButton aria-label="Use Cases" color="inherit">
+                        <BusinessCenterIcon />
+                    </IconButton>
+                    Use Cases
+                </Link>
+            </MenuItem>            
+            <MenuItem>
                 <Link to='/about'>
                     <IconButton aria-label="About" color="inherit">
                         <InfoIcon />
@@ -143,6 +153,7 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                         <LanguageSwitch/>
                         <Link to='/'><Button color="inherit">Home</Button></Link>
                         <Link to='/platforms' color="inherit" ><Button color="inherit">Platforms</Button></Link>
+                        <Link to='/usecases' color="inherit" ><Button color="inherit">Use Cases</Button></Link>
                         <Link to='/about'><Button color="inherit">About</Button></Link>
                     </div>
 

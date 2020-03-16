@@ -11,6 +11,7 @@ import { useTranslate } from "react-translate";
 
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
+import ImageVision from '../img/vision-process.png'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -47,19 +48,39 @@ const About = ({ languageMode, handleLanguageToggle }) => {
                 <Typography variant="h6" style={{ textAlign: 'center' }} paragraph>{t("enlightmeValues")}</Typography>
               </div>
             </Grid>
+            <Grid item xs={12}  md={6}>
+                <img src={ImageVision} style={{ maxHeight: '80vh', width: '90%' }} alt="" /> 
+              </Grid>
           </Grid>
         </div>
       </div>
 
+      <div className="blurb">
+        <Grid container spacing={3}>
+          <Grid item xs={12} md={12} style={{ textAlign: "center", padding: "1rem" }} >
+            <Typography variant="h3" style={{ color: "white" }}> {t("businessmodel")} </Typography>
+          </Grid>
+        </Grid>
+      </div>
+
+      <div className={classes.root}>
+          <Grid container spacing={3}>
+          <Grid item xs={12} md={6}>
+              <div className="facts">
+                <Typography variant="h6" style={{ textAlign: 'center' }} paragraph>{t("bmdescription1")}</Typography>
+              </div>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <div className="facts">
+                <Typography variant="h6" style={{ textAlign: 'center' }} paragraph>{t("bmdescription2")}</Typography>
+              </div>
+            </Grid>
+          </Grid>
+        </div>
 
       <div className="blurb">
         <Grid container spacing={3}>
-          <Grid
-            item
-            xs={12}
-            md={12}
-            style={{ textAlign: "center", padding: "1rem" }}
-          >
+          <Grid item xs={12} md={12} style={{ textAlign: "center", padding: "1rem" }} >
             <Typography variant="h3" style={{ color: "white" }}> {t("contactus")} </Typography>
           </Grid>
         </Grid>
@@ -67,12 +88,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
 
       <div className="howitworks">
         <Grid container spacing={3}>
-        <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
-          >
+        <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
             <Paper elevation={3}>
               <IconButton aria-label="Mail" color="inherit">                    
                         <MailIcon />
@@ -80,12 +96,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
               <Typography>contact@enlightme.io</Typography>
             </Paper>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
-          >
+          <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
             <Paper elevation={3}>
               <IconButton aria-label="Phone" color="inherit">                    
                         <PhoneIcon />
@@ -93,12 +104,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
               <Typography>+213 666 66 66 66</Typography>
             </Paper>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
-          >
+          <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
             <Paper elevation={3}>
             <IconButton aria-label="Address" color="inherit">                    
                         <BusinessIcon />
@@ -111,12 +117,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
 
       <div className="blurb">
         <Grid container spacing={3}>
-          <Grid
-            item
-            xs={12}
-            md={12}
-            style={{ textAlign: "center", padding: "1rem" }}
-          >
+          <Grid item xs={12} md={12} style={{ textAlign: "center", padding: "1rem" }} >
             <Typography variant="h3" style={{ color: "white" }}> {t("partners")} </Typography>
           </Grid>
         </Grid>
@@ -124,34 +125,19 @@ const About = ({ languageMode, handleLanguageToggle }) => {
 
       <div className="howitworks">
         <Grid container spacing={3}>
-        <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
-          >
+        <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
             <Paper elevation={3}>
-              <Typography>Partner 1 </Typography>
+              <Typography>Consultants & Trainers</Typography>
             </Paper>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
-          >
+          <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
             <Paper elevation={3}>
-              <Typography>Partner 2 </Typography>
+              <Typography>Developers & UX/UI Designers</Typography>
             </Paper>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
-          >
+          <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
             <Paper elevation={3}>
-              <Typography>Partner 3 </Typography>
+              <Typography>DevSecOps Professionals & Cloud Services Providers</Typography>
             </Paper>
           </Grid>
         </Grid>

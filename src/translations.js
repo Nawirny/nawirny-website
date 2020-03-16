@@ -17,6 +17,10 @@ export default {
       enlightmeValues: 'Our values : Openness, Use case driven, Community empowerement',
       contactus: 'Contact us',
       platforms : 'Platforms',
+      usecases : 'Use Cases',
+      businessmodel : 'Business Model',
+      bmdescription1 : "Being engaged for openess, our innovative business model focus on creating real value for customers, by working toghter with them to digitally transfrom their organisation's business processes. Our value proposition focus on Customer Journey Optimisation and Lean Management deployment.",
+      bmdescription2 : "In summary, our solutions are open and free of charge and we focus on integrating them in our customers premise to solve their day to day problems.",
     
     },
     arabic: {
@@ -36,6 +40,11 @@ export default {
       enlightmeValues: 'قيمنا : اﻹنفتاح، العمل على تطبيقات مفيدة، التكافل إجتماعي',
       contactus: 'إتصل بنا',
       platforms : 'المنصات الرقمية',
+      usecases : 'أمثلة إستعمال',
+      businessmodel : 'النموذج اﻹقتصادي',
+      bmdescription4 : "In summary, our solutions are open and free of charge and we focus on integrating them in our customers premise to solve their day to day problems.",
+      bmdescription1 : "بصفتنا مصممين على اﻹنفتاح، فنموذجنا اﻹقتصادي المبتكر يركز على خلق قيمة مضافة حقيقية لزبائننا، بالعمل معهم يدا بيد لتجسيد التحول الرقمي لمساراتهم المهنية. خدماتنا تهدف أساسا للتحكم في مسارات العملاء و كذا إرساء أساليب اﻹدارة اﻹنسيابية ",
+      bmdescription2 : "كخلاصة، حلولنا مفتوحة و مجانية، و أما نحن فنركز على إدماجها عند زبائننا من أجل حلحلت مشاكلهم اليومية",
 
     }
   };

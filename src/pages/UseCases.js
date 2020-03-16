@@ -6,9 +6,7 @@ import { useTranslate } from "react-translate";
 
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
-import CardDeLA from '../components/CardDeLA.js';
-import CardnvestInsightMobile from '../components/CardnvestInsightMobile.js';
-import InvestInsightGeoportal from '../components/CardInvestInsightGeoportal.js';
+import Geomarketing from '../components/CardGeomarketing.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -22,7 +20,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const Platforms = ({ languageMode, handleLanguageToggle }) => {
+const UseCases = ({ languageMode, handleLanguageToggle }) => {
   let t = useTranslate(languageMode ? "english" : "arabic");
   const classes = useStyles();
 
@@ -38,14 +36,21 @@ const Platforms = ({ languageMode, handleLanguageToggle }) => {
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
               <div className="opening-blurb">
-                <Typography variant="h4">{t('openLIplatforms')}</Typography>
+                <Typography variant="h4">{t('businessUseCases')}</Typography>
                 <hr />
                 <Typography variant='body1'>
-                  Enlight.me solutions are : <br /><br />
-                  - distributed under permissive open source licences (Apache 2.0), <br />
-                  - made available to the community free of charge, <br />
-                  - open to community contributions, <br />
-                  - customizable by Enlight.me team to meet customer needs (subject to conditions).
+                  Enlight.me Use Cases envision to  : <br /><br />
+                  - capture growing demand of Small Businesses to lower costs by outsourcing their R&D projects, <br />
+                  - grow a communitary ecosystem facilitating incubation and acceleration of startups solving real business problems, <br />
+                  - offer a high quality Consulting on organisation's Lean Transformation, <br />
+                  - democratize Deep Tech adoption by businesses (Blockchain, Spatial Data Science, Artificial Intelligence, 
+                </Typography>
+                <hr />
+                <Typography variant='body1'>
+                  To leverage community engagement Enlight.me : <br /><br />
+                  - encourage developpers and any interested person or organisation to contribute to its open platforms and to post new issues (Idea Box), <br />
+                  - organise regular competitions to motivate peoples and organisations building Location Intelligence solutions, <br />
+                  - host free events to educate the public on  new technologies and rise awareness on locations intelligence applications.  . 
                 </Typography>
                 <br/>
               </div>
@@ -63,23 +68,16 @@ const Platforms = ({ languageMode, handleLanguageToggle }) => {
             md={12}
             style={{ textAlign: "center", padding: "1rem" }}
           >
-            <Typography variant="h3" style={{ color: "white" }}> {t("platforms")} </Typography>
+            <Typography variant="h3" style={{ color: "white" }}> {t("usecases")} </Typography>
           </Grid>
         </Grid>
       </div>
 
       <div className="howitworks">
         <Grid container spacing={3}>
-        <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <CardDeLA/>
-          </Grid>
 
           <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <CardnvestInsightMobile/>            
-          </Grid>
-
-          <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <InvestInsightGeoportal/>            
+            <Geomarketing/>            
           </Grid>
 
         </Grid>
@@ -91,4 +89,4 @@ const Platforms = ({ languageMode, handleLanguageToggle }) => {
   );
 }
 
-export default Platforms;
+export default UseCases;

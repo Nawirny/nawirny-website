@@ -29,7 +29,7 @@ const Home = ({ languageMode, handleLanguageToggle }) => {
   const proServices = [
   { title: 'Open Platforms', description: t('openLIplatforms'),  image: openPlatformsImage, link:'/platforms'},
   { title: 'Open Datasets',  description: t('freeGeoDatasets'),  image: openGeoDataImage  , link:'/'},
-  { title: 'Open Use Cases', description: t('businessUseCases'), image: openUseCasesImage , link:'/'}];
+  { title: 'Open Use Cases', description: t('businessUseCases'), image: openUseCasesImage , link:'/usecases'}];
 
   return (
     <Fragment>

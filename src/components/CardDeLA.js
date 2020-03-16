@@ -54,7 +54,7 @@ export default function CardDeLA() {
           </Avatar>
               }
               
-              title="DeLA"
+              title="Blockchain"
               subheader="Decentralized Land Administration"
           />
          

@@ -7,6 +7,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 
 
 import Logo from '../img/logo-enlightme-1.png';
@@ -24,6 +25,8 @@ const Footer = () => {
                     <Link to='/about'  color="inherit" >About</Link>
                     <br/>
                     <Link to='/platforms'  color="inherit" >Platforms</Link>
+                    <br/>
+                    <Link to='/usecases'  color="inherit" >Use Cases</Link>
                     <br/>
                     <Link to='/'>Team & Community</Link>
                     <br/>
@@ -56,6 +59,11 @@ const Footer = () => {
                             <TwitterIcon color="action"/>
                         </IconButton>
                     </Link>
+                    <Link to='/'>
+                        <IconButton aria-label="Youtube" color="inherit">
+                            <YouTubeIcon color="action"/>
+                        </IconButton>
+                    </Link>                
                 </Grid>
             </Grid>
         </footer>
