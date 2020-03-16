@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/enlightme-website/precache-manifest.e510011552ca42a88acdaea254a3fe99.js"
+  "/enlightme-website/precache-manifest.b007faf7a20c6c18043ac28df483f779.js"
 );
 
 self.addEventListener('message', (event) => {
