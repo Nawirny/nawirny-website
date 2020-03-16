@@ -114,7 +114,7 @@ const NavBar = ({ languageMode, handleLanguageToggle }) => {
                 </Link>
             </MenuItem>              
             <MenuItem>
-                <Link to='/geogatasets'>                  
+                <Link to='/geodatasets'>                  
                     <IconButton aria-label="Datasets" color="inherit">
                         <StorageIcon />
                     </IconButton>
