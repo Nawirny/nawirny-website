@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28c4abe3a63d73fc606a43f4b765b0c8",
+    "revision": "e1865dddb57b4349594d2d096145ad74",
     "url": "/enlightme-website/index.html"
   },
   {
-    "revision": "38ed0105fdcdb7653092",
-    "url": "/enlightme-website/static/css/main.1aa44345.chunk.css"
+    "revision": "b06c0b0131538cf3a99e",
+    "url": "/enlightme-website/static/css/main.bd812c15.chunk.css"
   },
   {
-    "revision": "aef564e8e0d354f0438a",
-    "url": "/enlightme-website/static/js/2.09d72453.chunk.js"
+    "revision": "767160e26389e8aab910",
+    "url": "/enlightme-website/static/js/2.8e183d67.chunk.js"
   },
   {
     "revision": "ac9fac6c8e755a8efecd01981adb88e6",
-    "url": "/enlightme-website/static/js/2.09d72453.chunk.js.LICENSE.txt"
+    "url": "/enlightme-website/static/js/2.8e183d67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38ed0105fdcdb7653092",
-    "url": "/enlightme-website/static/js/main.74865efb.chunk.js"
+    "revision": "b06c0b0131538cf3a99e",
+    "url": "/enlightme-website/static/js/main.6f1050cc.chunk.js"
   },
   {
     "revision": "4d48bdf84365240363df",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc9272d6ca403736ad11f355e5357b77",
     "url": "/enlightme-website/static/media/logo-enlightme-1.bc9272d6.png"
+  },
+  {
+    "revision": "918a6d5664568cc4078fe971d69c03c2",
+    "url": "/enlightme-website/static/media/vision-process.918a6d56.png"
   }
 ]);
