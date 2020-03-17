@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "931978c5daf7ee7cd657fc4ac1d18d12",
+    "revision": "6b98935e2f5847983d5b489f56b6b7fc",
     "url": "/enlightme-website/index.html"
   },
   {
-    "revision": "a2c9594119f2805099b1",
+    "revision": "2b267347aafbfa1727b4",
     "url": "/enlightme-website/static/css/main.bd812c15.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/enlightme-website/static/js/2.8e183d67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a2c9594119f2805099b1",
-    "url": "/enlightme-website/static/js/main.6084019e.chunk.js"
+    "revision": "2b267347aafbfa1727b4",
+    "url": "/enlightme-website/static/js/main.6df1ca4d.chunk.js"
   },
   {
     "revision": "4d48bdf84365240363df",
