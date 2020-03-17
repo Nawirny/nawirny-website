@@ -63,14 +63,16 @@ export default function InvestInsightGeoportal() {
               </Typography>
           </CardContent>
           <CardActions disableSpacing>
-            <a href='https://github.com/enlight-me'>
+            <a href='https://github.com/enlight-me/investinsight-geoportal'>
               <IconButton aria-label="DeLA">
                   <GithubIcon />
               </IconButton>
               </a>              
-              <IconButton aria-label="demo">
+              <a href='https://enlight-me.github.io/investinsight-geoportal/'>
+                <IconButton aria-label="demo">
                   <WebIcon />
-              </IconButton>             
+                </IconButton>
+              </a>
               <IconButton
                   className={clsx(classes.expand, {
                       [classes.expandOpen]: expanded,
