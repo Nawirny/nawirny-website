@@ -2,7 +2,7 @@
   "name": "enlightme-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://enlight-me.github.io/enlightme-website/",
+  "homepage": "https://enlightme.biz",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
