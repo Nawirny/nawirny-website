@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/enlightme-website/static/css/main.bd812c15.chunk.css",
-    "main.js": "/enlightme-website/static/js/main.6df1ca4d.chunk.js",
-    "main.js.map": "/enlightme-website/static/js/main.6df1ca4d.chunk.js.map",
-    "runtime-main.js": "/enlightme-website/static/js/runtime-main.8df0d98b.js",
-    "runtime-main.js.map": "/enlightme-website/static/js/runtime-main.8df0d98b.js.map",
-    "static/js/2.8e183d67.chunk.js": "/enlightme-website/static/js/2.8e183d67.chunk.js",
-    "static/js/2.8e183d67.chunk.js.map": "/enlightme-website/static/js/2.8e183d67.chunk.js.map",
-    "index.html": "/enlightme-website/index.html",
-    "precache-manifest.cf9c52bdc782b478e789279c1b7ad76f.js": "/enlightme-website/precache-manifest.cf9c52bdc782b478e789279c1b7ad76f.js",
-    "service-worker.js": "/enlightme-website/service-worker.js",
-    "static/css/main.bd812c15.chunk.css.map": "/enlightme-website/static/css/main.bd812c15.chunk.css.map",
-    "static/js/2.8e183d67.chunk.js.LICENSE.txt": "/enlightme-website/static/js/2.8e183d67.chunk.js.LICENSE.txt",
-    "static/media/enlightme-process.png": "/enlightme-website/static/media/enlightme-process.74d875c1.png",
-    "static/media/geo-use-cases.jpg": "/enlightme-website/static/media/geo-use-cases.e1c1d572.jpg",
-    "static/media/geodatasets.jpg": "/enlightme-website/static/media/geodatasets.b775c2b8.jpg",
-    "static/media/li-platforms.png": "/enlightme-website/static/media/li-platforms.eb2718da.png",
-    "static/media/logo-enlightme-1.png": "/enlightme-website/static/media/logo-enlightme-1.bc9272d6.png",
-    "static/media/vision-process.png": "/enlightme-website/static/media/vision-process.918a6d56.png"
+    "main.css": "/static/css/main.bd812c15.chunk.css",
+    "main.js": "/static/js/main.73fe5184.chunk.js",
+    "main.js.map": "/static/js/main.73fe5184.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b6a863e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b6a863e.js.map",
+    "static/js/2.2f1cfedc.chunk.js": "/static/js/2.2f1cfedc.chunk.js",
+    "static/js/2.2f1cfedc.chunk.js.map": "/static/js/2.2f1cfedc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.acfbed93cffb087346967029c7e10a5e.js": "/precache-manifest.acfbed93cffb087346967029c7e10a5e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bd812c15.chunk.css.map": "/static/css/main.bd812c15.chunk.css.map",
+    "static/js/2.2f1cfedc.chunk.js.LICENSE.txt": "/static/js/2.2f1cfedc.chunk.js.LICENSE.txt",
+    "static/media/enlightme-process.png": "/static/media/enlightme-process.74d875c1.png",
+    "static/media/geo-use-cases.jpg": "/static/media/geo-use-cases.e1c1d572.jpg",
+    "static/media/geodatasets.jpg": "/static/media/geodatasets.b775c2b8.jpg",
+    "static/media/li-platforms.png": "/static/media/li-platforms.eb2718da.png",
+    "static/media/logo-enlightme-1.png": "/static/media/logo-enlightme-1.bc9272d6.png",
+    "static/media/vision-process.png": "/static/media/vision-process.918a6d56.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8df0d98b.js",
-    "static/js/2.8e183d67.chunk.js",
+    "static/js/runtime-main.2b6a863e.js",
+    "static/js/2.2f1cfedc.chunk.js",
     "static/css/main.bd812c15.chunk.css",
-    "static/js/main.6df1ca4d.chunk.js"
+    "static/js/main.73fe5184.chunk.js"
   ]
 }
