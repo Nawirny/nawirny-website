@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74cde9a5363b27803b4647e6b35c19ec",
+    "revision": "44ef29d663cd2987e2bac5c011343d58",
     "url": "/enlightme-website/index.html"
   },
   {
-    "revision": "b7a39f27c9077c8cb39d",
+    "revision": "f826ff1b9f2711e1323b",
     "url": "/enlightme-website/static/css/main.bd812c15.chunk.css"
   },
   {
-    "revision": "7bd31284feb63f06a3c7",
-    "url": "/enlightme-website/static/js/2.2f1cfedc.chunk.js"
+    "revision": "1dcaf9047dad82d291fb",
+    "url": "/enlightme-website/static/js/2.7e666b76.chunk.js"
   },
   {
     "revision": "ac9fac6c8e755a8efecd01981adb88e6",
-    "url": "/enlightme-website/static/js/2.2f1cfedc.chunk.js.LICENSE.txt"
+    "url": "/enlightme-website/static/js/2.7e666b76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7a39f27c9077c8cb39d",
-    "url": "/enlightme-website/static/js/main.b0ee9d3b.chunk.js"
+    "revision": "f826ff1b9f2711e1323b",
+    "url": "/enlightme-website/static/js/main.7bca6cc6.chunk.js"
   },
   {
     "revision": "4d48bdf84365240363df",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/enlightme-website/static/media/enlightme-process.74d875c1.png"
   },
   {
-    "revision": "e1c1d572f6a53c9901567c874aaf1496",
-    "url": "/enlightme-website/static/media/geo-use-cases.e1c1d572.jpg"
+    "revision": "89d6c24cdd0a74f3654d99b91b721574",
+    "url": "/enlightme-website/static/media/geo-use-cases.89d6c24c.svg"
   },
   {
-    "revision": "b775c2b898b259d41bce4deff39f56ea",
-    "url": "/enlightme-website/static/media/geodatasets.b775c2b8.jpg"
+    "revision": "405aa78b9b3318adf50cb60f759d2e6c",
+    "url": "/enlightme-website/static/media/geodatasets.405aa78b.svg"
   },
   {
-    "revision": "eb2718dac43c6e39b9366320bb3692e3",
-    "url": "/enlightme-website/static/media/li-platforms.eb2718da.png"
+    "revision": "6b88f31265dfdac8da06fe097a829d04",
+    "url": "/enlightme-website/static/media/li-platforms.6b88f312.svg"
   },
   {
     "revision": "bc9272d6ca403736ad11f355e5357b77",
