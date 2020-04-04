@@ -16,7 +16,7 @@ import WebIcon from '@material-ui/icons/Web';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 760,
   },
   media: {
     height: 0,
@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Geomarketing() {
+export default function CardPLFDeLA() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -49,28 +49,36 @@ export default function Geomarketing() {
       <Card className={classes.root}>
           <CardHeader
               avatar={
-                  <Avatar aria-label="odoo" className={classes.avatar}>
-                      O
-                  </Avatar>
-              }              
-              title="odoo"
-              subheader="Geomarketing"
+                  <Avatar aria-label="blockchain" className={classes.avatar}>
+                      B
+          </Avatar>
+              }
+              
+              title="Blockchain"
+              subheader="Decentralized Land Administration"
           />
          
           <CardContent>
               <Typography variant="body1" component="p">
-                  Geomarketing are a set of odoo modules built for Businesses.
-              </Typography>
+                  DeLA  (Decentralized Land Administration) is a Blockchain enabled Geopspatial 
+                  platform which main objective is porting this land registry
+                  solution to the Etherum blockchain is the ability to use it as a crowd sourcing 
+                  land registry  platform to collect tenure relationships and as a tool for
+                  communities to assess and clarify their tenure regimes so to protect the individual 
+                  and collective rights of their members.
+        </Typography>
           </CardContent>
           <CardActions disableSpacing>
-            <a href='https://github.com/enlight-me'>
+            <a href='https://github.com/allilou/onchain-land-administration'>
               <IconButton aria-label="DeLA">
                   <GithubIcon />
               </IconButton>
-              </a>              
+              </a>
+              <a href='https://allilou.github.io/onchain-land-administration/'>
               <IconButton aria-label="demo">
                   <WebIcon />
-              </IconButton>             
+              </IconButton>
+              </a>
               <IconButton
                   className={clsx(classes.expand, {
                       [classes.expandOpen]: expanded,
@@ -83,11 +91,20 @@ export default function Geomarketing() {
               </IconButton>
           </CardActions>
           <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+              <CardContent>
                   <Typography variant="body2" color="textSecondary" paragraph>
-                      The main objective of this modules is to simplify integration of geomarketing
-                      processes with other ERP related activites.
+                      The main objective of this platform is to implement,
+                      on the Ethereum blockchain, all the features of the the open source SOLA-FAO
+                      (Solutions for Open Land Administration) which is a J2EE implementation that has many
+                      uses cases in Africa and Asia. Using SOLA allows us to incorporate international
+                      best practice and standards, namely the ISO 19152:2012 standard - Geographic information
+                      — Land Administration Domain Model (LADM))
                  </Typography> 
+                 <Typography variant="body2" color="textSecondary" paragraph>
+                      The source code of this GeodApp is available on and a working version, deployed on the
+                      Rinkeby testnet, is live on.
+                  </Typography>
+
               </CardContent>
           </Collapse>
       </Card>

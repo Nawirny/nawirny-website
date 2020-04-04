@@ -11,9 +11,9 @@ import ServiceCard from '../components/ServiceCard.js';
 import Footer from '../components/Footer.js';
 
 import ImageProcess from '../img/enlightme-process.png';
-import openPlatformsImage from '../img/li-platforms.png';
-import openGeoDataImage from '../img/geodatasets.jpg';
-import openUseCasesImage from '../img/geo-use-cases.jpg';
+import openPlatformsImage from '../img/li-platforms.svg';
+import openGeoDataImage from '../img/geodatasets.svg';
+import openUseCasesImage from '../img/geo-use-cases.svg';
 
 const useStyles = makeStyles(theme => ({
   root: {

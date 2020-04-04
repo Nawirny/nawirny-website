@@ -16,7 +16,7 @@ import WebIcon from '@material-ui/icons/Web';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 760,
   },
   media: {
     height: 0,
@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function CardnvestInsightMobile() {
+export default function CardPLFInvestInsightMobile() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 

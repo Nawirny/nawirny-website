@@ -5,7 +5,7 @@ This is the source code for the Enlight.me organization website.
 [![GitHub license](https://img.shields.io/github/license/enlight-me/enlightme-website)](https://github.com/enlight-me/enlightme-website/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/enlight-me/enlightme-website)](https://github.com/enlight-me/enlightme-website)
 [![GitHub stars](https://img.shields.io/github/stars/enlight-me/enlightme-website)](https://github.com/enlight-me/enlightme-website)
-[![GitHub stars](https://img.shields.io/github/forks/enlight-me/enlightme-website)](https://github.com/enlight-me/enlightme-website/network/members)
+[![GitHub forks](https://img.shields.io/github/forks/enlight-me/enlightme-website)](https://github.com/enlight-me/enlightme-website/network/members)
 
 Project Setup
 ============

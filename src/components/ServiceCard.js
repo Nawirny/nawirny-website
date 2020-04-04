@@ -12,26 +12,24 @@ import { useTranslate } from "react-translate";
 
 const useStyles = makeStyles({
     root: {
-      maxWidth: 400,
+        maxWidth: 760,
     },
     media: {
-      height: 140,
+        height: 140,        
+        paddingTop: '15%', // 16:9,
     },
-  });
+});
 
 const ServiceCard = (props) => {
     const classes = useStyles();
     let t = useTranslate(props.languageMode ? "english" : "arabic");
 
     return (
-        <Grid
-            item
-            xs={12}
-            md={4}
-            style={{ textAlign: "center", padding: "2rem" }}
+        <Grid item xs={12} sm={6} md={4} lg={4}
+            style={{ textAlign: "center", padding: "1rem" }}
         >
             <Card className={classes.root}>
-                <CardMedia 
+                <CardMedia
                     className={classes.media}
                     image={props.service.image}
                     title={props.service.title}
@@ -45,9 +43,9 @@ const ServiceCard = (props) => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                <Link to={props.service.link}>
-                    <Button size="small" color="primary"> {t('learnmore')} </Button>
-                </Link>
+                    <Link to={props.service.link}>
+                        <Button size="small" color="primary"> {t('learnmore')} </Button>
+                    </Link>
                 </CardActions>
             </Card>
         </Grid>

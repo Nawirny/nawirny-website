@@ -16,7 +16,7 @@ import WebIcon from '@material-ui/icons/Web';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 760,
   },
   media: {
     height: 0,
@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function InvestInsightGeoportal() {
+export default function CardUCGeomarketing() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -49,30 +49,28 @@ export default function InvestInsightGeoportal() {
       <Card className={classes.root}>
           <CardHeader
               avatar={
-                  <Avatar aria-label="web" className={classes.avatar}>
-                      W
+                  <Avatar aria-label="odoo" className={classes.avatar}>
+                      O
                   </Avatar>
               }              
-              title="Web"
-              subheader="InvestInsight Geoportal"
+              title="odoo"
+              subheader="Geomarketing"
           />
          
           <CardContent>
               <Typography variant="body1" component="p">
-                  InvestInsight Geoportal is a web application built upon terriaMap.
+                  Geomarketing are a set of odoo modules built for Businesses.
               </Typography>
           </CardContent>
           <CardActions disableSpacing>
-            <a href='https://github.com/enlight-me/investinsight-geoportal'>
+            <a href='https://github.com/enlight-me'>
               <IconButton aria-label="DeLA">
                   <GithubIcon />
               </IconButton>
               </a>              
-              <a href='https://enlight-me.github.io/investinsight-geoportal/'>
-                <IconButton aria-label="demo">
+              <IconButton aria-label="demo">
                   <WebIcon />
-                </IconButton>
-              </a>
+              </IconButton>             
               <IconButton
                   className={clsx(classes.expand, {
                       [classes.expandOpen]: expanded,
@@ -87,12 +85,9 @@ export default function InvestInsightGeoportal() {
           <Collapse in={expanded} timeout="auto" unmountOnExit>
           <CardContent>
                   <Typography variant="body2" color="textSecondary" paragraph>
-                      The main objective of this geoportal is to simplify the access to 
-                      useful insights for investors all around the world.
+                      The main objective of this modules is to simplify integration of geomarketing
+                      processes with other ERP related activites.
                  </Typography> 
-                 <Typography variant="body2" color="textSecondary" paragraph>
-                      The webmapping application is not yet live on github pages. 
-                  </Typography>
               </CardContent>
           </Collapse>
       </Card>

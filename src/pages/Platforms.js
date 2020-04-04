@@ -6,9 +6,9 @@ import { useTranslate } from "react-translate";
 
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
-import CardDeLA from '../components/CardDeLA.js';
-import CardnvestInsightMobile from '../components/CardnvestInsightMobile.js';
-import InvestInsightGeoportal from '../components/CardInvestInsightGeoportal.js';
+import CardPLFDeLA from '../components/CardPLFDeLA.js';
+import CardPLFInvestInsightMobile from '../components/CardPLFInvestInsightMobile.js';
+import CardPLFInvestInsightGeoportal from '../components/CardPLFInvestInsightGeoportal.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -47,7 +47,7 @@ const Platforms = ({ languageMode, handleLanguageToggle }) => {
                   - open to community contributions, <br />
                   - customizable by Enlight.me team to meet customer needs (subject to conditions).
                 </Typography>
-                <br/>
+                <br />
               </div>
             </Grid>
           </Grid>
@@ -69,17 +69,17 @@ const Platforms = ({ languageMode, handleLanguageToggle }) => {
       </div>
 
       <div className="howitworks">
-        <Grid container spacing={3}>
-        <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <CardDeLA/>
+        <Grid container spacing={1}>
+        <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardPLFDeLA />
           </Grid>
 
-          <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <CardnvestInsightMobile/>            
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardPLFInvestInsightMobile />
           </Grid>
 
-          <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <InvestInsightGeoportal/>            
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardPLFInvestInsightGeoportal />
           </Grid>
 
         </Grid>

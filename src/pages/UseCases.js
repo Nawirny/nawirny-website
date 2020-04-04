@@ -6,8 +6,8 @@ import { useTranslate } from "react-translate";
 
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
-import Geomarketing from '../components/CardGeomarketing.js';
-
+import CardUCGeomarketing from '../components/CardUCGeomarketing.js';
+import CardUCDocker from '../components/CardUCDocker.js';
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -43,16 +43,16 @@ const UseCases = ({ languageMode, handleLanguageToggle }) => {
                   - capture growing demand of Small Businesses to lower costs by outsourcing their R&D projects, <br />
                   - grow a communitary ecosystem facilitating incubation and acceleration of startups solving real business problems, <br />
                   - offer a high quality Consulting on organisation's Lean Transformation, <br />
-                  - democratize Deep Tech adoption by businesses (Blockchain, Spatial Data Science, Artificial Intelligence, 
+                  - democratize Deep Tech adoption by businesses (Blockchain, Spatial Data Science, Artificial Intelligence,
                 </Typography>
                 <hr />
                 <Typography variant='body1'>
                   To leverage community engagement Enlight.me : <br /><br />
                   - encourage developpers and any interested person or organisation to contribute to its open platforms and to post new issues (Idea Box), <br />
                   - organise regular competitions to motivate peoples and organisations building Location Intelligence solutions, <br />
-                  - host free events to educate the public on  new technologies and rise awareness on locations intelligence applications.  . 
+                  - host free events to educate the public on  new technologies and rise awareness on locations intelligence applications.  .
                 </Typography>
-                <br/>
+                <br />
               </div>
             </Grid>
           </Grid>
@@ -74,12 +74,13 @@ const UseCases = ({ languageMode, handleLanguageToggle }) => {
       </div>
 
       <div className="howitworks">
-        <Grid container spacing={3}>
-
-          <Grid item  xs={12}  md={3} style={{ textAlign: "center", padding: "2rem" }}>
-            <Geomarketing/>            
+        <Grid container spacing={1}>
+        <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardUCGeomarketing />
           </Grid>
-
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardUCDocker />
+          </Grid>
         </Grid>
       </div>
 

@@ -93,7 +93,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
               <IconButton aria-label="Mail" color="inherit">                    
                         <MailIcon />
               </IconButton>
-              <Typography>contact@enlightme.io</Typography>
+              <Typography>info@enlightme.biz</Typography>
             </Paper>
           </Grid>
           <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
@@ -101,7 +101,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
               <IconButton aria-label="Phone" color="inherit">                    
                         <PhoneIcon />
               </IconButton> 
-              <Typography>+213 666 66 66 66</Typography>
+              <Typography>+213 552 59 21</Typography>
             </Paper>
           </Grid>
           <Grid item xs={12} md={4} style={{ textAlign: "center", padding: "2rem" }} >
@@ -109,7 +109,7 @@ const About = ({ languageMode, handleLanguageToggle }) => {
             <IconButton aria-label="Address" color="inherit">                    
                         <BusinessIcon />
               </IconButton> 
-              <Typography>01, Business Building, Town</Typography>
+              <Typography>Cité 410 Logements CNEP, Ain Temouchent</Typography>
             </Paper>
           </Grid>
         </Grid>

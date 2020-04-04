@@ -17,34 +17,34 @@ const Footer = () => {
         <footer className='footer'>
             <Grid container spacing={3} >
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
-                <Link to='/'>
-                    <img src={Logo} style={{ maxHeight: '100%', height: '100px' }} alt=""/>
-                </Link>
+                    <Link to='/'>
+                        <img src={Logo} style={{ maxHeight: '100%', height: '100px' }} alt="" />
+                    </Link>
                 </Grid>
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
-                    <Link to='/about'  color="inherit" >About</Link>
-                    <br/>
-                    <Link to='/platforms'  color="inherit" >Platforms</Link>
-                    <br/>
-                    <Link to='/geodatasets'  color="inherit" >DataSets</Link>
-                    <br/>
-                    <Link to='/usecases'  color="inherit" >Use Cases</Link>
-                    <br/>
+                    <Link to='/about' color="inherit"> About</Link>
+                    <br />
+                    <Link to='/platforms' color="inherit"> Platforms</Link>
+                    <br />
+                    <Link to='/geodatasets' color="inherit"> DataSets</Link>
+                    <br />
+                    <Link to='/usecases' color="inherit"> Use Cases</Link>
+                    <br />
                     <Link to='/'>Team & Community</Link>
-                    <br/>
-                    <p>© 2020, Built with ❤ by Team Enlight.me</p>
+                    <br />
+                    <p>© 2020, Built with ❤ by Enlight.me Team</p>
                 </Grid>
                 <Grid item xs={12} md={4} style={{ textAlign: 'center', padding: '2rem' }}>
                     <a href='https://www.github.com/enlight-me'>
-                    <IconButton aria-label="Facebook" color="inherit">
-                            <GitHubIcon color="action"/>
+                        <IconButton aria-label="Github" color="inherit">
+                            <GitHubIcon color="action" />
                         </IconButton>
-                    </a>                    
-                    <br/>                    
+                    </a>
+                    <br />
                     <Link to='/'>
                         <IconButton aria-label="Facebook" color="inherit">
-                            <FacebookIcon color="action"/>
-                        </IconButton>                        
+                            <FacebookIcon color="action" />
+                        </IconButton>
                     </Link>
                     <Link to='/'>
                         <IconButton aria-label="Instagram" color="inherit">
@@ -52,20 +52,20 @@ const Footer = () => {
                         </IconButton>
                     </Link>
                     <Link to='/'>
-                    <IconButton aria-label="LinkedIn" color="inherit">
-                            <LinkedInIcon color="action"/>
+                        <IconButton aria-label="LinkedIn" color="inherit">
+                            <LinkedInIcon color="action" />
                         </IconButton>
                     </Link>
                     <Link to='/'>
-                    <IconButton aria-label="Twitter" color="inherit">
-                            <TwitterIcon color="action"/>
+                        <IconButton aria-label="Twitter" color="inherit">
+                            <TwitterIcon color="action" />
                         </IconButton>
                     </Link>
                     <Link to='/'>
                         <IconButton aria-label="Youtube" color="inherit">
-                            <YouTubeIcon color="action"/>
+                            <YouTubeIcon color="action" />
                         </IconButton>
-                    </Link>                
+                    </Link>
                 </Grid>
             </Grid>
         </footer>

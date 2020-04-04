@@ -6,7 +6,8 @@ import { useTranslate } from "react-translate";
 
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
-import CardOpenStreeMap from '../components/CardOpenStreeMap.js';
+import CardDSOpenStreeMap from '../components/CardDSOpenStreeMap.js';
+import CardDSGeoserver from '../components/CardDSGeoserver.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -45,7 +46,7 @@ const GeoDataSets = ({ languageMode, handleLanguageToggle }) => {
                   - building wrappers to enrich the available datasets with location component, <br />
                   - using and deploying aggregators for free Big Data sources.
                 </Typography>
-                <br/>
+                <br />
               </div>
             </Grid>
           </Grid>
@@ -67,11 +68,13 @@ const GeoDataSets = ({ languageMode, handleLanguageToggle }) => {
       </div>
 
       <div className="howitworks">
-        <Grid container spacing={3}>
-        <Grid item  xs={12}  md={6} style={{ textAlign: "center", padding: "2rem" }}>
-            <CardOpenStreeMap />
+        <Grid container spacing={1}>
+        <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardDSOpenStreeMap />
           </Grid>
-
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardDSGeoserver />
+          </Grid>
         </Grid>
       </div>
 

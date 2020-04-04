@@ -15,7 +15,7 @@ import WebIcon from '@material-ui/icons/Web';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 760,
   },
   media: {
     height: 0,
@@ -36,7 +36,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function CardEarthExplorer() {
+export default function CardDSGeoserver() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -48,31 +48,24 @@ export default function CardEarthExplorer() {
     <Card className={classes.root}>
       <CardHeader
         avatar={
-          <Avatar aria-label="geodata" className={classes.avatar}>
+          <Avatar aria-label="webmapping" className={classes.avatar}>
             W
           </Avatar>
         }
 
-        title="GeoData"
-        subheader="Earth Explorer"
+        title="Webmapping"
+        subheader="Geoserver"
       />
 
       <CardContent>
         <Typography variant="body1" component="p">
-        EarthExplorer (EE) (http://earthexplorer.usgs.gov) provides online search, browse display, metadata export, 
-        and data download for earth science data from the archives of the U.S. Geological Survey (USGS). 
-        EE provides an enhanced user interface using state-of-the-art technologies for searching, viewing, 
-        and downloading data.
+          GeoServer is an open source server for sharing geospatial data. 
+          Enlight.me use its main webmapping application and publish on it many ready to use datasets.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <a href='https://earthexplorer.usgs.gov/'>
-          <IconButton aria-label="DeLA">
-            <WebIcon />
-          </IconButton>
-        </a>
-        <a href='https://earthexplorer.usgs.gov/'>
-          <IconButton aria-label="demo">
+        <a href='https://platforms.enlightme.biz/geoserver'>
+          <IconButton aria-label="Enlight.me Datsets">
             <WebIcon />
             </IconButton>
         </a>
@@ -90,20 +83,12 @@ export default function CardEarthExplorer() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography variant="body2" color="textSecondary" paragraph>
-            OpenStreetMap emphasizes local knowledge. Contributors use aerial imagery, GPS devices,
-            and low-tech field maps to verify that OSM is accurate and up to date.
+              Enlight.me use Geoserver as its main webmapping application and publish on it 
+              many ready to use datasets.
           </Typography>
           <Typography variant="body2" color="textSecondary" paragraph>
-            OpenStreetMap's community is diverse, passionate, and growing every day. Our contributors
-            include enthusiast mappers, GIS professionals, engineers running the OSM servers,
-             humanitarians mapping disaster-affected areas, and many more.
-             To learn more about the community, see the OpenStreetMap Blog, user diaries,
-             community blogs, and the OSM Foundation website.
-          </Typography>
-          <Typography variant="body2" color="textSecondary" paragraph>
-            OpenStreetMap is open data: you are free to use it for any purpose as long as you
-             credit OpenStreetMap and its contributors. If you alter or build upon the data in certain
-             ways, you may distribute the result only under the same licence.
+                You can find on the webmapping server many ready to use geospatial services 
+                published on different APIs (OGC WMS/WFS, ESRI REST API, ...)
           </Typography>
         </CardContent>
       </Collapse>
