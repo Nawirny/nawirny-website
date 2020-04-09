@@ -8,6 +8,9 @@ import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import CardUCGeomarketing from '../components/CardUCGeomarketing.js';
 import CardUCDocker from '../components/CardUCDocker.js';
+import CardUCOdoo from '../components/CardUCOdoo.js';
+
+
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -75,11 +78,14 @@ const UseCases = ({ languageMode, handleLanguageToggle }) => {
 
       <div className="howitworks">
         <Grid container spacing={1}>
-        <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+        {/* <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
             <CardUCGeomarketing />
-          </Grid>
+          </Grid> */}
           <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
             <CardUCDocker />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardUCOdoo />
           </Grid>
         </Grid>
       </div>
