@@ -64,8 +64,8 @@ export default function CardDSGeoserver() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <a href='https://platforms.enlightme.biz/geoserver'>
-          <IconButton aria-label="Enlight.me Datsets">
+        <a href='https://datasets.enlightme.biz/geoserver'>
+          <IconButton aria-label="Enlight.me Datasets">
             <WebIcon />
             </IconButton>
         </a>
