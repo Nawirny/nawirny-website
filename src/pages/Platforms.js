@@ -9,6 +9,7 @@ import Footer from '../components/Footer.js';
 import CardPLFDeLA from '../components/CardPLFDeLA.js';
 import CardPLFInvestInsightMobile from '../components/CardPLFInvestInsightMobile.js';
 import CardPLFInvestInsightGeoportal from '../components/CardPLFInvestInsightGeoportal.js';
+import CardPLFCryptoSpatialContracts from '../components/CardPLFCryptoSpatialContracts.js';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -70,10 +71,14 @@ const Platforms = ({ languageMode, handleLanguageToggle }) => {
 
       <div className="howitworks">
         <Grid container spacing={1}>
-        <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
-            <CardPLFDeLA />
+
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardPLFCryptoSpatialContracts />
           </Grid>
 
+          <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
+            <CardPLFDeLA />
+          </Grid>
           <Grid item xs={12} sm={6} md={4} lg={3} style={{ textAlign: "center", padding: "1rem" }}>
             <CardPLFInvestInsightMobile />
           </Grid>
